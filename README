@@ -1,6 +1,8 @@
 # cljsthree
 
-A clojurescript wrapper for three.js
+A clojurescript wrapper for three.js.
+
+If it looks like I'm doing something stupid, you should tell me. I probably am.
 
 ## License
 
