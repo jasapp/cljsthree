@@ -14,12 +14,12 @@
 (defn faces-count [g]
   (count (faces g)))
 
-(defn verticies [g]
-  (into [] (.-verticies g)))
+(defn vertices [g]
+  (into [] (.-vertices g)))
 
-(defn add-verticies [g & vs]
+(defn add-vertices [g & vs]
   (doseq [v vs]
-    (.push (.-verticies g) v))
+    (.push (.-vertices g) v))
   g)
 
 (defn verticies-count [g]

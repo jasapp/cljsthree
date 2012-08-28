@@ -13,6 +13,9 @@
     (.remove s o))
   s)
 
+(defn children [s]
+  (.-children s))
+
 (defn lights [s]
   (into [] (.-__lights s)))
 
