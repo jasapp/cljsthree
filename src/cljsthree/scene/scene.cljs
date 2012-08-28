@@ -8,6 +8,11 @@
     (.add s o))
   s)
 
+(defn remove [s & os]
+  (doseq [o os]
+    (.remove s o))
+  s)
+
 (defn lights [s]
   (into [] (.-__lights s)))
 

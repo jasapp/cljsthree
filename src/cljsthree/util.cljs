@@ -6,7 +6,7 @@
     (doseq [[k v] m]
       (aset out (name k) v))
     out))
-
+ 
 (defn wait [ms func]
   (js* "setTimeout(~{func}, ~{ms})"))
 
