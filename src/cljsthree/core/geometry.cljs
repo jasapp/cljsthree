@@ -22,8 +22,8 @@
     (.push (.-vertices g) v))
   g)
 
-(defn verticies-count [g]
-  (count (verticies g)))
+(defn vertices-count [g]
+  (count (vertices g)))
 
 (extend-type js/THREE.Geometry
   IPrintable  
